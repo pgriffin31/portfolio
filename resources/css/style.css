@@ -1,0 +1,194 @@
+/*Universal Settings for font and body dimensions*/
+body {
+  width: 520px;
+  min-width: 500px;
+}
+
+p, h1, h2, h3, li {
+  color: #044666;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #499100;
+}
+
+ol {
+  list-style-type: square;
+}
+
+/**** Generic and Commonly called CSS statements ****/
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-items{
+  align-items: center;
+}
+
+.rel-width {
+  width: 100%;
+}
+
+.upcase {
+  text-transform: uppercase;
+  font-size: 0.6em;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+}
+
+.font-big {
+  font-size: 2.2em;
+}
+
+.hide {
+  display: none;
+}
+
+.increase-line-spacing {
+  line-height: 1.5em;
+}
+
+.border {
+  border-bottom: 1.5px solid #9CEC4A;
+  border-top: 1.5px solid #9CEC4A;
+}
+
+.border-bottom-only {
+  border-bottom: 1.5px solid #9CEC4A;
+}
+
+.border-top-only {
+  border-top: 3px solid #4092BA;
+}
+
+.blank-div {
+  height: 10px;
+  margin: 2px 0 5px 13px;
+}
+
+/**** Header and Navigation ****/
+
+#header {
+  position: fixed;
+  max-width: 520px;
+  top: 0;
+  height: 80px;
+  z-index: 20;
+  border-bottom: 3px solid #4092BA;
+  background-color: white;
+}
+
+#logo {
+  width: 45%;
+  flex: 0 2;
+}
+
+#header-name-desc {
+  width: 55%;
+  flex: 4 1;
+}
+
+.logo-text {
+  text-align: left;
+  padding-left: 30%;
+  font-family: 'Pacifico', cursive;
+  font-size: 3em;
+  color: #9CEC4A;
+}
+
+.name {
+  text-align: right;
+  padding-right: 2.5%;
+  font-size: 2.2em;
+  color: #044666;
+  line-height: 1em;
+}
+
+.desc {
+  text-align: right;
+  padding-right: 2.5%;
+  font-size: 0.9em;
+  font-weight: 300;
+  color: #044666;
+}
+
+/**** Main Content Area ****/
+
+main {
+  position: relative;
+  top: 83px;
+  max-width: 520px;
+  margin-left: 2.3%;
+  margin-top: 10px;
+}
+
+#philo-statement {
+  margin: 3% 0 3% 3%;
+}
+
+section {
+  margin: 3% 0 3% 3%;
+  max-width: 455px;
+}
+
+.fast-facts {
+  margin-left: 6.5%;
+}
+
+article {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.title {
+  height: 20px;
+  width: 95%;
+  background-color: white;
+  padding: 10px 0;
+  color: #044666;
+  font-size: 1.2em;
+  border-bottom: 1.5px solid #75E700;
+}
+
+.article-title {
+  font-weight: bold;
+  color: #044666;
+  font-size: 0.9em;
+  margin-bottom: 10px;
+}
+
+.article-img {
+  height: 300px;
+  width: 100%;
+  padding: 0 1% 1% 0;
+}
+
+.proj-desc {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+/**** Footer ****/
+
+footer {
+  position: relative;
+  top: 83px;
+}
+
+.foot-item {
+  line-height: 1.2em;
+  padding-left: 10px;
+}
