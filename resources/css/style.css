@@ -132,50 +132,49 @@ header {
 
 /**** Main Content Area ****/
 
-  main {
-    position: relative;
-    max-width: 85%;
-    margin-left: 2.5%;
-  }
+main {
+  position: relative;
+  max-width: 85%;
+  margin-left: 2.5%;
+}
 
-  .add-margin-standard {
-    margin-left: 1.5%;
-  }
+.add-margin-standard {
+  margin-left: 1.5%;
+}
 
-  .add-margin-more {
-    margin-left: 4%;
-  }
+.add-margin-more {
+  margin-left: 4%;
+}
 
-  .title {
-    padding: 2.5px 0;
-    margin: 15px 0;
-  }
+.title {
+  padding: 2.5px 0;
+  margin: 15px 0;
+}
 
-  .article-title {
-    font-weight: bold;
-    color: #044666;
-    margin-bottom: 10px;
-  }
+.article-title {
+  font-weight: bold;
+  color: #044666;
+  margin-bottom: 10px;
+}
 
-  .article-img {
-    height: 225px;
-    padding: 0 1% 1% 0;
-  }
+.article-img {
+  height: 225px;
+  padding: 0 1% 1% 0;
+}
 
-  .proj-desc {
-    margin-top: 10px;
-    padding-bottom: 10px;
-  }
+.proj-desc {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
 
-  /**** Footer ****/
+/**** Footer ****/
 
-  footer {
-    position: relative;
-    max-width: 95%;
-  }
+footer {
+  position: relative;
+  max-width: 95%;
+}
 
-  .foot-item {
-    padding-left: 10px;
-    padding-top: 10px;
-  }
+.foot-item {
+  padding-left: 10px;
+  padding-top: 10px;
 }

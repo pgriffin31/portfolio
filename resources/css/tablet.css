@@ -16,10 +16,6 @@
     align-items: flex-end;
   }
 
-  .mxt-hide {
-    display: relative;
-  }
-
   .border-bottom-only-green-small { /*Set to zero px for non-mobile*/
     border-bottom: 0px solid #75E700;
   }
