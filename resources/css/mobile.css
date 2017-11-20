@@ -1,0 +1,65 @@
+@media screen and (max-width: 360px) {
+
+  /*Universal Settings for font and body dimensions*/
+  html {
+    font-size: 11px; /*Establish rem units*/
+  }
+
+  body {
+    min-width: 300px;
+    max-width: 359px; /*Nexus 5 vertical*/
+  }
+
+  /**** Generic and Commonly called CSS classes ****/
+
+  .flex-col-mobile-only { /*Starts at mobile and continues until tablet*/
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mxt-hide { /*Mobile only*/
+    display: none;
+  }
+
+  .border-bottom-only-green-small {
+    border-bottom: 0.8px solid #75E700;
+  }
+
+  /**** Header and Navigation ****/
+
+  header {
+    height: 50px;
+    max-width: 95%;
+    min-width: 300px;
+  }
+
+  .logo-text {
+    padding-left: 4%;
+  }
+
+/**** Main Content Area ****/
+
+  main {
+    top: 53px;
+    margin-left: 5%;
+  }
+
+  #featured-work-flex-container {
+    margin-left: 2%;
+  }
+
+  #featured-work-article-container {
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+
+  .article-img {
+    height: 180px;
+  }
+
+  /**** Footer ****/
+
+  footer {
+    top: 63px;
+  }
+}

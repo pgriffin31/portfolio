@@ -1,0 +1,62 @@
+@media screen and (min-width: 361px) and (max-width: 739px) {
+
+  /*Universal Settings for font and body dimensions*/
+  html {
+    font-size: 14px; /*Establish rem units*/
+  }
+
+  body {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /**** Generic and Commonly called CSS classes ****/
+
+  .mxt-hide { /*Also applicable between mobile and tablet*/
+    display: none;
+  }
+
+  .border-bottom-only-green-small {
+    border-bottom: 0px solid #75E700;
+  }
+
+  /**** Header and Navigation ****/
+
+  header {
+    height: 65px;
+    max-width: 600px;
+  }
+
+  .logo-text {
+    padding-left: 10%;
+  }
+
+/**** Main Content Area ****/
+
+  main {
+    top: 68px;
+    max-width: 94%;
+    margin-left: 3%;
+  }
+
+  #philo-statement {
+    max-width: 90%;
+  }
+
+  .article-container {
+    max-width: 290px;
+    margin: 10px;
+    padding-bottom: 8px;
+    justify-content: space-between;
+  }
+
+  .article-img {
+    height: 180px;
+  }
+
+  /**** Footer ****/
+
+  footer {
+    top: 63px;
+  }
+}

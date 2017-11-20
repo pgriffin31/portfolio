@@ -7,40 +7,44 @@
   <title>Griffin Portfolio</title>
   <!-- Link to stylesheets -->
   <link rel="stylesheet" href="resources/css/reset.css" type="text/css">
-  <link rel="stylesheet" href="resources/css/style.css"  type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Pacifico|Quicksand:400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+  <link rel="stylesheet" href="resources/css/mobile.css"  type="text/css">
+  <link rel="stylesheet" href="resources/css/flex.css" type="text/css"> <!--Inbetween mobile and tablet-->
+  <link rel="stylesheet" href="resources/css/tablet.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Pacifico:400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
 </head>
 <body>
-  <header id="header" class="flex-row center-items rel-width border-bottom-only-blue">
+  <header class="flex-row center-items rel-width border-bottom-only-blue">
     <div id="logo">
       <h1 class="logo-text">P</h1>
     </div>
     <div id="header-name-desc" class="flex-col center-items">
-      <h1 class="text-align-right">Patrick Griffin</h1>
-      <h1 class="text-align-right upcase">Full Stack Developer In-Training</h1>
+      <h1 class="text-align-right rel-width padding-bottom">Patrick Griffin</h1>
+      <h1 class="text-align-right upcase rel-width">Full Stack Developer In-Training</h1>
     </div>
   </header>
-  <main class="flex-col rel-width">
-    <div id="jumbotron" class="mobile-hide">
-      <img class="rel-width" src="resources/images/website_code2.jpg">
+  <main class="flex-col">
+    <div id="jumbo-container" class="flex-col flex-end-content mxt-hide rel-width">
+      <div id="jumbotron">
+        <img class="rel-width" src="resources/images/computercouch.jpg" alt="Laptop computer resting on couch.">
+        <a class="attribution text-align-right" href="https://unsplash.com/photos/iacpoKgpBAM" target="_blank">Photo By Goran Ivos on Unsplash</a>
       <!--Photo by Goran Ivos on Unsplash-->
-    </div>
-    <div id="philosophy">
-      <h1 class="title rel-width border-bottom-only-green">Elevator Pitch</h1>
-      <div id="philo-statement" class="add-margin">
-        <p> I feel future business leaders will need to understand not just finance or
-          marketing but be able to solution business challenges directly. Relying on IT and
-          outsourcing the problem to a non subject matter expert is slow and most
-          often ineffective. Transitioning to a developer role early in my career will
-          allow me to focus on building the practical skills necessary to be a solutions
-          oriented leader.</p>
       </div>
     </div>
-    <div id="about-me">
+    <div id="philosophy">
+      <h1 class="title rel-width border-bottom-only-green">Motivation</h1>
+      <div id="philo-statement" class="add-margin-standard">
+        <p>I feel future business leaders will need to solution technology problems
+          directly. No more waiting for IT or outsourcing the problem. I am
+          learning to code, and plan to transition to a developer role, so that
+          I can build the practical skills necessary to be a more effective leader.</p>
+      </div>
+    </div>
+    <div id="about-me" class="max-width-item">
       <h1 class="title rel-width border-bottom-only-green">Fast Facts</h1>
-      <div id="fast-facts" class="add-margin">
-        <ol>
+      <div id="fast-facts">
+        <ol class="add-margin-more">
           <li>MBA From <a href="https://michiganross.umich.edu/ross-news-blog/2017/10/31/u-m-ranks-top-ten-us-news-business-and-economics" target="_blank">
             Top Ten Business School</a></li>
           <li>MPH From <a href="https://sph.umich.edu/" target="_blank">
@@ -51,45 +55,47 @@
         </ol>
       </div>
     </div>
-    <div id="featured-work" class="flex-col">
+    <div id="featured-work">
       <h1 class="title rel-width border-bottom-only-green">Featured Development Work</h1>
-      <div id="featured-work-article" class="one">
-        <article class="flex-col rel-width">
-          <h3 id="colmar" class="article-title">Colmar Academy</h3>
-          <img class="article-img" src="resources/images/banner.jpg" alt="Thumbnail of Colmar Academy site banner. Students with open books reading at a table.">
-            <figcaption class="site-link"><a href="https://pgriffin31.github.io/colmar_academy/" target="_blank">Visit Colmar Academy Site</a></figcaption>
-          <p class="proj-desc">Capstone project from <a href="https://www.codecademy.com/pro/intensive/build-websites-from-scratch?ubv=upgrdsbws&utm_source=google&utm_medium=cpc&utm_campaign=tm&gclid=CjwKCAiA6K_QBRA8EiwASvtjZQhvvz5G8tBKItFUhTahTSfY2A_IvJf5tVWX3GDnNhLfnJWNovhUHhoCOd8QAvD_BwE" target="_blank">
-            Codecademy Pro Intensive - Build Websites from Scratch</a>. This
-            website is a mock up of a fictional educator's site complete with
-            logo, nav, imgs, and video. This site is designed to be responsive
-            and a separate css sheet is called when browser width falls below
-            500 DIPs.</p>
-        </article>
-      </div>
-      <div id="featured-work-article" class="two">
-        <h3 id="mytimes" class="article-title">MY Times</h3>
-        <article class="flex-col rel-width background">
-          <img class="article-img" src="resources/images/mytimes.png" alt="Photo of mock news site MY Times.">
-          <a href="https://pgriffin31.github.io/mytimes/" target="_blank">Visit MYTimes Site</a>
-          <p class="proj-desc">Exercise from Codecademy Pro Intensive
-            - Build Websites from Scratch. This website is a mock up of a fictional news
-            site complete with logo, nav, imgs, and a multi-column layout.</p>
-        </article>
-      </div>
-      <div id="featured-work-article" class="three">
-        <h3 id="tea-cozy" class="article-title">Tea Cozy</h3>
-        <article class="flex-col rel-width">
-          <img class="article-img" src="resources/images/tea.jpg" alt="Thumbnail of Dasmoto's Coffee Shop Banner">
-          <figcaption><a href="https://pgriffin31.github.io/tea/" target="_blank">Visit Tea Cozy Site</a></figcaption>
-          <p class="proj-desc">Exercise from Codecademy Pro Intensive
-            - Build Websites from Scratch. This website is a mock up of a fictional tea
-            cafe's site complete with logo, nav, imgs, and utilizes flexbox.
-        </article>
+      <div id="featured-work-flex-container" class="flex-row flex-col-mobile-only wrap space-around">
+        <div id="article-container-one" class="article-container one border-bottom-only-green-small">
+          <article class="flex-col rel-width add-margin-bottom">
+            <h3 id="colmar" class="article-title">Colmar Academy</h3>
+            <img class="article-img" src="resources/images/banner.jpg" alt="Thumbnail of Colmar Academy site banner. Students with open books reading at a table.">
+            <a href="https://pgriffin31.github.io/colmar_academy/" target="_blank">Visit Colmar Academy Site</a>
+            <p class="proj-desc">Capstone project from <a href="https://www.codecademy.com/pro/intensive/build-websites-from-scratch?ubv=upgrdsbws&utm_source=google&utm_medium=cpc&utm_campaign=tm&gclid=CjwKCAiA6K_QBRA8EiwASvtjZQhvvz5G8tBKItFUhTahTSfY2A_IvJf5tVWX3GDnNhLfnJWNovhUHhoCOd8QAvD_BwE" target="_blank">
+              Codecademy Pro Intensive - Build Websites from Scratch</a>. This
+              website is a mock up of a fictional educator's site complete with
+              logo, nav, imgs, and video. This site is designed to be responsive
+              and a separate css sheet is called when browser width falls below
+              500 DIPs.</p>
+          </article>
+        </div>
+        <div id="article-container-two" class="article-container two border-bottom-only-green-small">
+          <article class="flex-col rel-width background">
+            <h3 id="mytimes" class="article-title">MY Times</h3>
+            <img class="article-img" src="resources/images/mytimes.png" alt="Photo of mock news site MY Times.">
+            <a href="https://pgriffin31.github.io/mytimes/" target="_blank">Visit MYTimes Site</a>
+            <p class="proj-desc">Exercise from Codecademy Pro Intensive
+              - Build Websites from Scratch. This website is a mock up of a fictional news
+              site complete with logo, nav, imgs, and a multi-column layout.</p>
+            </article>
+        </div>
+        <div id="article-container-three" class="article-container three">
+          <article class="flex-col rel-width">
+            <h3 id="tea-cozy" class="article-title">Tea Cozy</h3>
+            <img class="article-img" src="resources/images/tea.jpg" alt="Thumbnail of Dasmoto's Coffee Shop Banner">
+            <a href="https://pgriffin31.github.io/tea/" target="_blank">Visit Tea Cozy Site</a>
+            <p class="proj-desc">Exercise from Codecademy Pro Intensive
+              - Build Websites from Scratch. This website is a mock up of a fictional tea
+              cafe's site complete with logo, nav, imgs, and utilizes flexbox.
+          </article>
+        </div>
       </div>
     </div>
   </main>
-  <footer class="rel-width border-top-only-blue">
-    <ul>
+  <footer class="flex-row center-items rel-width border-top-only-blue">
+    <ul class="rel-width">
       <li class="foot-item one">Current as of November 2017</li>
     </ul>
   </footer>

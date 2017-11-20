@@ -1,0 +1,75 @@
+@media screen and (min-width: 740px) {
+
+  /*Universal Settings for font and body dimensions*/
+  html {
+    font-size: 14px; /*Establish rem units*/
+  }
+
+  body {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /**** Generic and Commonly called CSS classes ****/
+
+  .flex-end-content { /*Ipad only*/
+    align-items: flex-end;
+  }
+
+  .mxt-hide {
+    display: relative;
+  }
+
+  .border-bottom-only-green-small { /*Set to zero px for non-mobile*/
+    border-bottom: 0px solid #75E700;
+  }
+
+  /**** Header and Navigation ****/
+
+  header {
+    height: 80px;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .logo-text {
+    margin-left: 10%; /*More margin for non-mobile*/
+  }
+
+/**** Main Content Area ****/
+
+  main {
+    top: 105px;
+    max-width: 1250px;
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  #jumbo-container {
+    top: 53px;
+  }
+
+  #jumbotron {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  #jumbotron img {
+    height: 400px;
+  }
+
+  .article-container {
+    max-width: 310px;
+    margin: 15px;
+  }
+
+  .article-img {
+    height: 200px;
+  }
+
+  /**** Footer ****/
+
+  footer {
+    top: 93px;
+  }
+}
