@@ -12,10 +12,6 @@
 
   /**** Generic and Commonly called CSS classes ****/
 
-  .mxt-hide { /*Also applicable between mobile and tablet*/
-    display: none;
-  }
-
   .border-bottom-only-green-small {
     border-bottom: 0px solid #75E700;
   }
@@ -34,7 +30,7 @@
 /**** Main Content Area ****/
 
   main {
-    top: 68px;
+    top: 73px;
     max-width: 94%;
     margin-left: 3%;
   }
@@ -44,14 +40,10 @@
   }
 
   .article-container {
-    max-width: 290px;
+    max-width: 250px;
     margin: 10px;
     padding-bottom: 8px;
     justify-content: space-between;
-  }
-
-  .article-img {
-    height: 180px;
   }
 
   /**** Footer ****/

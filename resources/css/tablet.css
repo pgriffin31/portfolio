@@ -47,20 +47,16 @@
 
   #jumbotron {
     width: 90%;
-    max-width: 500px;
+    max-width: 800px;
   }
 
   #jumbotron img {
-    height: 400px;
+    height: auto;
   }
 
   .article-container {
-    max-width: 310px;
+    max-width: 250px;
     margin: 15px;
-  }
-
-  .article-img {
-    height: 200px;
   }
 
   /**** Footer ****/

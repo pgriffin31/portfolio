@@ -17,10 +17,6 @@
     flex-direction: column;
   }
 
-  .mxt-hide { /*Mobile only*/
-    display: none;
-  }
-
   .border-bottom-only-green-small {
     border-bottom: 0.8px solid #75E700;
   }
@@ -40,7 +36,7 @@
 /**** Main Content Area ****/
 
   main {
-    top: 53px;
+    top: 63px;
     margin-left: 5%;
   }
 
@@ -48,13 +44,9 @@
     margin-left: 2%;
   }
 
-  #featured-work-article-container {
+  .article-container {
     padding-bottom: 8px;
     margin-bottom: 15px;
-  }
-
-  .article-img {
-    height: 180px;
   }
 
   /**** Footer ****/
